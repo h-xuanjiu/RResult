@@ -1,0 +1,25 @@
+Package: RResult
+Type: Package
+Title: Live Interactive Inspection of R Objects
+Version: 0.1.0
+Date: 2026-10-14
+Authors@R: person("Yuxuan", "He", email = "heyuxuan0525@outlook.com",
+    role = c("aut", "cre"), comment = c(ORCID = "0009-0007-1149-5554"))
+Description: A local Shiny workspace for bounded, on-demand inspection of R
+    objects, dense and sparse matrices, data frames, statistical models, tests,
+    principal components, constrained ordinations, additive models, ROC curves,
+    differential-expression results, clusters, and time series. Visual reports combine
+    key metrics, interactive chart choices, and downloadable results. Object
+    inspection, data providers, statistical adapters, and presentation are
+    separated, with conservative handling of unfamiliar classes and bindings.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: shiny (>= 1.8.0), htmltools, ggplot2 (>= 3.4.0), jsonlite, methods, stats, utils, grDevices, grid
+Suggests: ggrepel
+Enhances: Matrix, survival, lme4, nlme, MASS, lmerTest, emmeans,
+    mgcv, DESeq2, S4Vectors,
+    SeuratObject (>= 5.0.0), SummarizedExperiment, SingleCellExperiment,
+    SpatialExperiment, edgeR, limma, DOSE
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3

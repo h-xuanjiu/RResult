@@ -1,0 +1,9 @@
+^\.github$
+^\.git$
+^\.gitignore$
+^RResult\.Rproj$
+^\.Rproj\.user$
+^\.positai$
+^\.claude$
+^tests$
+^LICENSE\.md$
