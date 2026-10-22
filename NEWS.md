@@ -1,4 +1,4 @@
-# RResult 0.1.0
+# RResult 0.1.0 (2026-10-23)
 
 ## Development updates (version retained pending release)
 
